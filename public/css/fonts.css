@@ -15,7 +15,6 @@
 
 [class^="rt-icon2-"], [class*=" rt-icon2-"] {
 	font-family: 'rt-icons-2' !important;
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -931,6 +930,18 @@
 .soc-streamjar:before{content:"\e0a5"}
 .soc-nintendo:before{content:"\e0a6"}
 .soc-hellocoton:before{content:"\e0a7"}
+
+/* flex slider font path*/
+@font-face {
+    font-family: 'flexslider-icon';
+    src:url('fonts/flexslider-icon.eot');
+    src:url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/flexslider-icon.woff') format('woff'),
+        url('fonts/flexslider-icon.ttf') format('truetype'),
+        url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
