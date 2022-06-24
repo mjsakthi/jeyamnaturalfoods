@@ -4071,7 +4071,7 @@ div.ppt {
 }
 
 .section_padding_top_150 > [class*="container"] {
-	padding-top: 150px;
+	padding-top: 90px;
 }
 
 /*bottom paddings for sections*/
@@ -4128,7 +4128,7 @@ div.ppt {
 }
 
 .section_padding_bottom_150 > [class*="container"] {
-	padding-bottom: 150px;
+	padding-bottom: 90px;
 }
 
 .section_padding_bottom_165 > [class*="container"] {
@@ -4484,8 +4484,7 @@ header [class*="col-"],
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height: 80%;
-	width: 95%;
+	width: 100%;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
