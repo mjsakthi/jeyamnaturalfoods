@@ -126,6 +126,21 @@ Border colors for elements in color section: rgba(255, 255, 255, 0.2)
 /*
 ** Bootstrap Overrides
 */
+
+@media only screen and (max-width: 600px) {
+	video {
+	  width: 380px;
+	
+	}
+  }
+
+  @media only screen and (min-width: 1050px) {
+	video {
+	  width: 945px;
+	  
+	}
+  }
+
 /* columns with 20 and 40 percents width */
 .col-xs-20,
 .col-sm-20,
@@ -4128,7 +4143,7 @@ div.ppt {
 }
 
 .section_padding_bottom_150 > [class*="container"] {
-	padding-bottom: 50px;
+	padding-bottom: 150px;
 }
 
 .section_padding_bottom_165 > [class*="container"] {
