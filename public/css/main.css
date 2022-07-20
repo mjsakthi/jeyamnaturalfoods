@@ -132,12 +132,18 @@ Border colors for elements in color section: rgba(255, 255, 255, 0.2)
 	  width: 380px;
 	
 	}
+	.welcome{
+		text-align: center;
+	}
   }
 
   @media only screen and (min-width: 1050px) {
 	video {
 	  width: 945px;
 	  
+	}
+	.welcome{
+		text-align: left;
 	}
   }
 
