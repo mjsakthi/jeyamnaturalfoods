@@ -2204,8 +2204,8 @@ ul.list1 {
 }
 
 .list2 ul,
-ul.list2 {
-	list-style: none;
+.list2 li {
+	list-style:none;
 	padding-left: 20px;
 }
 
@@ -2232,7 +2232,7 @@ ul.list2 {
 	background-color: #82cc33;
 	border-radius: 50%;
 	left: -20px;
-	top: 50%;
+	top: 23px;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	color: #00ccbd;
