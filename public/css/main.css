@@ -280,6 +280,12 @@ Border colors for elements in color section: rgba(255, 255, 255, 0.2)
 	padding-right: 8px;
 	
 }
+.item-media top_rounded overflow_hidden{
+	height: 400px;
+	width: 100%;
+}
+
+
 
 /* bootstrap breadcrumbs*/
 .breadcrumb {
@@ -6609,6 +6615,20 @@ body.boxed {
 .content-padding footer {
 	padding: 15px 20px;
 }
+.item-media top_rounded overflow_hidden {
+	padding: 50px;
+	background-color: green;
+	transition: transform .2s;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+  }
+  
+  .item-media top_rounded overflow_hidden:hover {
+	-ms-transform: scale(1.5); 
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5); 
+  }
 
 .content-padding footer:before {
 	content: "";
