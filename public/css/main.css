@@ -4201,6 +4201,14 @@ div.ppt {
 		padding-bottom: 75px;
 	}
 }
+.page{
+	background-image: url(/public/images/lgo.jfif);
+	background-repeat: no-repeat;
+
+	background-size: 300px, 300px ;
+background-position: center;
+	
+}
 
 [class*="col-"] {
 	margin-top: 1px;
@@ -8000,9 +8008,13 @@ body.active-side-header.slide-right .page_header_side {
 ** Light Section - .ls
 */
 .ls {
+	
+	background-repeat: no-repeat;
 	background-color: #ffffff;
 	color: #818181;
 }
+
+
 
 .ls h1,
 .ls h2,
