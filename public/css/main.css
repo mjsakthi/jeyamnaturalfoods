@@ -4201,8 +4201,20 @@ div.ppt {
 		padding-bottom: 75px;
 	}
 }
+
 .page{
-	background-image: url(/public/images/lgo.jfif);
+	background-image: url(/public/images/Jeyam\ post-01.jpg);
+	
+	background-repeat: no-repeat;
+
+	background-size: 300px, 300px ;
+background-position:center;
+	
+}
+.list{
+	background-image: url(/public/images/lk.png);
+	opacity:inherit;
+	
 	background-repeat: no-repeat;
 
 	background-size: 300px, 300px ;
@@ -4211,8 +4223,8 @@ background-position: center;
 }
 
 [class*="col-"] {
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 [class*="_0"] [class*="col-"],
@@ -8011,7 +8023,7 @@ body.active-side-header.slide-right .page_header_side {
 	
 	background-repeat: no-repeat;
 	background-color: #ffffff;
-	color: #818181;
+	color: black;
 }
 
 
@@ -8022,7 +8034,7 @@ body.active-side-header.slide-right .page_header_side {
 .ls h4,
 .ls h5,
 .ls h6 {
-	color: #002632;
+	color: #000000;
 }
 
 .ls h1 a,
@@ -8207,7 +8219,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .ls .highlightlinks a,
 .ls .highlightlink {
-	color: #00ccbd;
+	color: red;
 }
 
 .ls .highlightlinks a:hover,
